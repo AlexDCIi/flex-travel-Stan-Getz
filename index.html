@@ -9,16 +9,18 @@
 <body>
     <div class="container">
         <div class="form-container">
-            <p>Travel the World</p>
+            <h1>Travel the World</h1>
             <form class="form-container-labels" action="" method="get">
                 <label for="from">From</label>
-                <input type="text" id="from" name="from">
+                <input type="text" id="from" required name="from">
                 <label for="to">To</label>
-                <input type="text" id="to" name="to">
-                <input type="reset" id="surprise-me" name="surprise-me" value="Surprise Me">
-                <input type="submit">
+                <input type="text" id="to" required name="to">
             </form>
         </div>
+    </div>
+    <div class="buttons">
+        <input type="reset" id="surprise-me" name="surprise-me" value="Surprise Me">
+        <input type="submit">
     </div>
 </body>
 </html>
