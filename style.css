@@ -27,7 +27,6 @@ html {
 .form-container {
     padding: 20px;
     /* width: 40%; */
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
 }
